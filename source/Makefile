@@ -3,8 +3,11 @@
 
 langs         = en de
 
-all: html
+all: clean html
 	
+
+clean:
+	for lang in $(langs); do rm -rf "../docs/($lang)"; done
 
 html: $(foreach lang,$(langs),html-$(lang))
 	
