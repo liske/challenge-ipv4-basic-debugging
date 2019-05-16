@@ -19,7 +19,6 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Te\'Challenge IPv4 Debugging'
 copyright = '2019, Thomas Liske'
 author = 'Thomas Liske'
 
