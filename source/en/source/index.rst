@@ -1,10 +1,14 @@
-Challenge: IPv4 Basic Debugging
-===============================
+IPv4 Basic Debugging Challenge
+==============================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+   intro
+   prerequisites
+   scenario
+   solutions
 
 
 Indices
