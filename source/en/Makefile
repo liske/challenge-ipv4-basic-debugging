@@ -2,13 +2,11 @@
 #
 
 # You can set these variables from the command line.
-SPHINXOPTS    =
+LANG          = en
+SPHINXOPTS    = -d $(BUILDDIR)/doctrees/$(LANG)
 SPHINXBUILD   = sphinx-build
 SOURCEDIR     = source
-BUILDDIR      = docs
-
-gh-pages: html
-	
+BUILDDIR      = ../../docs/$(LANG)
 
 # Put it first so that "make" without argument is like "make help".
 help:
