@@ -1,5 +1,5 @@
-Te'Challenge IPv4 Debugging
-===========================
+Challenge: IPv4 Basic Debugging
+===============================
 
 .. toctree::
    :maxdepth: 2
@@ -7,8 +7,8 @@ Te'Challenge IPv4 Debugging
 
 
 
-Indices and tables
-==================
+Indices
+=======
 
 * :ref:`genindex`
 * :ref:`search`

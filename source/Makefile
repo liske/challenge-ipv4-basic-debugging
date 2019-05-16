@@ -3,14 +3,12 @@
 
 langs         = en de
 
-all: clean html
-	
+all: clean build	
 
 clean:
 	for lang in $(langs); do rm -rf "../docs/($lang)"; done
 
-html: $(foreach lang,$(langs),html-$(lang))
+build: $(foreach lang,$(langs),build-$(lang))
 	
-
-html-%: $(SPHINX_DEPENDENCIES)
-	cd $* && make html
+build-%: $(SPHINX_DEPENDENCIES)
+	cd $* && make html latexpdf epub

@@ -17,6 +17,9 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 
+from __main__ import *;
+
+
 # -- Project information -----------------------------------------------------
 
 copyright = '2019, Thomas Liske'
@@ -101,7 +104,7 @@ html_static_path = ['../../_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'TeChallengeIPv4Debuggingdoc'
+htmlhelp_basename = 'ChallengeIPv4BasicDebuggingdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -109,7 +112,7 @@ htmlhelp_basename = 'TeChallengeIPv4Debuggingdoc'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
-    # 'papersize': 'letterpaper',
+    'papersize': 'a4paper',
 
     # The font size ('10pt', '11pt' or '12pt').
     #
@@ -124,21 +127,13 @@ latex_elements = {
     # 'figure_align': 'htbp',
 }
 
-# Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title,
-#  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'TeChallengeIPv4Debugging.tex', 'Te\'Challenge IPv4 Debugging Documentation',
-     'Thomas Liske', 'manual'),
-]
-
 
 # -- Options for manual page output ------------------------------------------
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'techallengeipv4debugging', 'Te\'Challenge IPv4 Debugging Documentation',
+    (master_doc, 'ChallengeIPv4BasicDebugging', 'Challenge: IPv4 Basic Debugging',
      [author], 1)
 ]
 
@@ -149,16 +144,13 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'TeChallengeIPv4Debugging', 'Te\'Challenge IPv4 Debugging Documentation',
-     author, 'TeChallengeIPv4Debugging', 'One line description of project.',
+    (master_doc, 'ChallengeIPv4BasicDebugging', 'Challenge: IPv4 Basic Debugging',
+     author, 'ChallengeIPv4BasicDebugging', 'One line description of project.',
      'Miscellaneous'),
 ]
 
 
 # -- Options for Epub output -------------------------------------------------
-
-# Bibliographic Dublin Core info.
-epub_title = project
 
 # The unique identifier of the text. This can be a ISBN number
 # or the project homepage.

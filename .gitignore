@@ -1,2 +1,4 @@
-docs/doctrees
 source/__pycache__/
+docs/*/doctrees
+docs/*/epub
+docs/*/latex
