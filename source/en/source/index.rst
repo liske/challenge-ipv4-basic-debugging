@@ -7,9 +7,16 @@ IPv4 Basic Debugging Challenge
 
    intro
    prerequisites
-   scenario
+   scenarios
    solutions
 
+Scenarios
+=========
+
+.. toctree::
+   :maxdepth: 2
+
+   issues/01
 
 Indices
 =======
