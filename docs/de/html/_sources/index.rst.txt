@@ -3,12 +3,19 @@ Herausforderung IPv4 Grundlagen Fehlersuche
 
 .. toctree::
    :maxdepth: 2
-   :caption: Inhalt:
 
    intro
    prerequisites
-   scenario
+   scenarios
    solutions
+
+Szenarien
+=========
+
+.. toctree::
+   :maxdepth: 2
+
+   issues/01
 
 
 Index

@@ -4,7 +4,7 @@ Issue 01
 Scenario
 --------
 
-.. image:: networks.svg
+.. image:: ../../../assets/networks.png
   :width: 400
   :alt: network schema
 
